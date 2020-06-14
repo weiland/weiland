@@ -1,0 +1,16 @@
+{
+  "name": "pascalweiland",
+  "version": "0.0.1",
+  "description": "pascalweiland cli",
+  "main": "index.js",
+  "repository": "weiland/pascalweiland",
+  "author": {
+    "name": "Pascal Weiland",
+    "email": "pasweiland@gmail.com",
+    "url": "pascalweiland.com"
+  },
+  "bin": {
+    "pascalweilad": "cli.js"
+  },
+  "license": "ISC"
+}
