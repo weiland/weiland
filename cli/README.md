@@ -4,8 +4,8 @@
 
 Usage:
 
-  $ npx pascalweiland
+    $ npx pascalweiland
 
 Without speaking audio:
 
-  $ npx pascalweiland --silent
+    $ npx pascalweiland --silent
