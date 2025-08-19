@@ -38,7 +38,7 @@ you-can-contact-me:
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [50.1105, 8.6822]
+        "coordinates": [8.6822, 50.1105]
     },
     "properties": {
         "name": "Frankfurt am Main",
