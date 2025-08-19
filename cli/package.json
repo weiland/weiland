@@ -1,0 +1,19 @@
+{
+	"name": "pascalweiland",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "pascalweiland v-card cli",
+	"main": "cli.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/weiland/pascalweiland.git"
+	},
+	"author": {
+		"name": "Pascal Weiland",
+		"url": "https://pascal.codes"
+	},
+	"bin": {
+		"pascalweilad": "cli.js"
+	},
+	"license": "ISC"
+}
