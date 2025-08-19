@@ -1,4 +1,4 @@
-# weiland
+<h1 align="center">Pascal Weiland</h1>
 
 ```js
 console.debug('hi,')
@@ -25,4 +25,24 @@ you-can-contact-me:
 
   - service: mastodon
     url: https://indieweb.social/@weiland
+```
+
+## About
+
+🥺🏊‍♂️🥾🌈🐈‍⬛🧉🍫🧑‍💻
+
+### 📍 Location
+
+```geojson
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [50.1105, 8.6822]
+    },
+    "properties": {
+        "name": "Frankfurt am Main",
+        "country": "DE"
+    }
+}
 ```
