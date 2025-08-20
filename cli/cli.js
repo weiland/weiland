@@ -51,11 +51,20 @@ ${Object.entries(socials).map(([key, value]) => `${key}: ${value}`).join('\r\n')
 
 const humanRights = humanRightsMessage.split('').map((c, i) => styleText(i % 2 ? 'blueBright' : 'magentaBright', c)).join('')
 
+const vcard = `
+BEGIN:VCARD
+END:VCARD
+`
+
 const main = async () => {
 	debug('run cli program')
 	const args = process.argv.slice(2)
 	if (args.includes('--help')) {
 		console.info(usageMessage)
+		return
+	}
+	if (args.includes('--vcard')) {
+		console.log(vcard)
 		return
 	}
 	if (!args.includes('--no-audio') && !args.includes('--silent')) {
